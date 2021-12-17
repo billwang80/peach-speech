@@ -11,6 +11,7 @@ Dev Runbook:
 Node:
 - nav to backend
 - npm install
+- setup .env with api key 
 - node index.js
 
 
