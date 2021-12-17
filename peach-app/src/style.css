@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background-image: url("images/peach_background.png");;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  width: 100%;
+  height: 100%;
+  color: #45526C;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  height: 100vh;
+  text-align: center;
+}
+
+.main {
+  vertical-align: middle;
+}
+
+.container {
+  padding-top: 5vh;
+}
+
+.home-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.button {
+  width: 300px;
+  border: 0px;
+  border-radius: 25px;
+  color: #C68B59;
+  background-color: #b0ffbb;
+  transition: all .3s linear;
+}
+
+.button:hover, .button:active {
+  color: #865439;
+  background-color: #8df89b;
+  filter: drop-shadow(0 0 5px rgb(66, 66, 66));
+}
+
+.record-button-container {
+  padding: 30px;
+}
+
+.button-container {
+  padding: 10px;
+}
+
+.feedback-button {
+  width: 300px;
+  border: 0px;
+  border-radius: 25px;
+  background-color: #C68B59;
+  color: #c9fcd0;
+  transition: all .3s linear;
+}
+
+.feedback-button:hover {
+  color: #8df89b;
+  background-color: #9e6445;
+  filter: drop-shadow(0 0 5px rgb(66, 66, 66));
+}
+
+.error-message {
+  font-weight: bold;
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+}
+
+.result-text {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.meter {
+  box-sizing: content-box;
+  height: 20px; 
+  margin: 20px 0 20px 0; 
+  background: #555;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.centered {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+}
