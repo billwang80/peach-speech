@@ -6,11 +6,12 @@ React + Node app with IBM API and Webkit Speech Recognition
 
 Looking for audio tone API (or make one myself)
 
-Dev Runbook
+Dev Runbook:
+Node:
 - nav to backend
 - npm install
 - node index.js
-
+React:
 - nav to app
 - npm install
 - npm start
